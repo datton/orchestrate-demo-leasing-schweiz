@@ -2,3 +2,5 @@
 body { margin: 0; font-family: var(--font-sans); font-size: var(--text-base); line-height: var(--leading-body); color: var(--ink); background: var(--bg); }
 a { color: var(--accent-dark); }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.error { color: #b3261e; font-size: var(--text-sm); }
+input, textarea { font: inherit; padding: var(--space-2); border: 1px solid var(--border); border-radius: var(--radius-sm); max-width: 100%; }
