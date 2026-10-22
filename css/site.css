@@ -1,4 +1,4 @@
 /* Base site styles: owned by the Lead Developer */
-body { margin: 0; font-family: var(--font-body); color: var(--color-text); background: var(--color-bg); line-height: 1.6; }
-a { color: var(--color-accent); }
-:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 2px; }
+body { margin: 0; font-family: var(--font-sans); font-size: var(--text-base); line-height: var(--leading-body); color: var(--ink); background: var(--bg); }
+a { color: var(--accent-dark); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
