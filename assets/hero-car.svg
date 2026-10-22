@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="t d"><title id="t">Modern car on an alpine road</title><desc id="d">A red electric car driving past snowy mountains.</desc>
+<rect width="640" height="360" fill="#e8edf3"/>
+<path d="M0 230 L120 110 L190 180 L270 80 L380 210 L460 130 L560 220 L640 160 V270 H0Z" fill="#c9d4e2"/>
+<path d="M270 80 L240 118 L262 112 L276 130 L292 108 L312 124Z" fill="#fff"/>
+<path d="M120 110 L98 138 L118 132 L134 148 L150 128Z" fill="#fff"/>
+<rect y="262" width="640" height="98" fill="#0b2340"/>
+<path d="M0 300 H640" stroke="#fff" stroke-width="4" stroke-dasharray="36 28" opacity=".7"/>
+<ellipse cx="320" cy="292" rx="190" ry="10" fill="#000" opacity=".25"/>
+<path d="M130 268 Q130 232 168 224 L226 206 Q262 164 322 164 H386 Q432 166 456 206 L500 220 Q528 228 528 262 V272 H130Z" fill="#c8102e"/>
+<path d="M246 208 Q272 178 322 178 H378 Q414 180 434 208Z" fill="#dff0fb"/>
+<path d="M334 178 V208" stroke="#c8102e" stroke-width="6"/>
+<rect x="496" y="236" width="30" height="10" rx="4" fill="#ffe9a8"/>
+<rect x="130" y="240" width="20" height="9" rx="4" fill="#9e0c24"/>
+<g><circle cx="204" cy="272" r="34" fill="#0f1c2e"/><circle cx="204" cy="272" r="18" fill="#c9d4e2"/><circle cx="204" cy="272" r="6" fill="#0f1c2e"/></g>
+<g><circle cx="450" cy="272" r="34" fill="#0f1c2e"/><circle cx="450" cy="272" r="18" fill="#c9d4e2"/><circle cx="450" cy="272" r="6" fill="#0f1c2e"/></g>
+</svg>

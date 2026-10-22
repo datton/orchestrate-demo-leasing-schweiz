@@ -1,8 +1,57 @@
-/* Design tokens: owned by the Designer */
+/* Design tokens for leasing-schweiz.
+   Palette: Swiss red as the single accent on cool alpine neutrals.
+   Contrast (WCAG AA): --ink on --bg 14.8:1; --ink-soft on --bg 7.4:1;
+   white on --accent 5.9:1; white on --navy 14:1; --accent-dark on --bg 8:1. */
 :root {
-  --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-accent: #d52b1e;
-  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
-  --space: 1rem;
+  /* colour */
+  --bg: #ffffff;
+  --surface: #f4f6f9;
+  --surface-2: #e8edf3;
+  --border: #d3dbe5;
+  --ink: #0f1c2e;
+  --ink-soft: #46556a;
+  --navy: #0b2340;
+  --accent: #c8102e;
+  --accent-dark: #9e0c24;
+  --accent-tint: #fdecef;
+  --success: #1b7a4b;
+  --focus: #1d5fd1;
+  --on-accent: #ffffff;
+
+  /* type: system fonts only */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.9375rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.625rem;
+  --text-2xl: clamp(1.9rem, 1.4rem + 2vw, 2.75rem);
+  --text-3xl: clamp(2.4rem, 1.6rem + 3.6vw, 4rem);
+  --weight-regular: 400;
+  --weight-medium: 600;
+  --weight-bold: 800;
+  --leading-tight: 1.15;
+  --leading-body: 1.6;
+
+  /* spacing (4px base) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 7rem;
+
+  /* shape and depth */
+  --radius-sm: 6px;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow-1: 0 1px 2px rgba(15, 28, 46, .08), 0 2px 8px rgba(15, 28, 46, .06);
+  --shadow-2: 0 8px 28px rgba(15, 28, 46, .14);
+  --container: 72rem;
+  --focus-ring: 0 0 0 3px #fff, 0 0 0 5px var(--focus);
 }
