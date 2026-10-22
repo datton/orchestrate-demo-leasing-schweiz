@@ -18,7 +18,20 @@
   </header>
   <main id="main">
     <h1>Contact</h1>
-    <!-- TODO build.fullstack: page content -->
+    <p>Questions about leasing? Fill in the form below. This is a demonstration site, so nothing is sent anywhere.</p>
+    <form id="contact-form" novalidate>
+      <p><label for="name">Name</label><br><input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-err"><br><span id="name-err" class="error" role="alert"></span></p>
+      <p><label for="email">Email</label><br><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-err"><br><span id="email-err" class="error" role="alert"></span></p>
+      <p><label for="topic">Topic</label><br>
+        <select id="topic" name="topic">
+          <option>General question about leasing</option>
+          <option>Costs and rates</option>
+          <option>End of contract</option>
+        </select></p>
+      <p><label for="message">Message</label><br><textarea id="message" name="message" rows="5" required aria-describedby="message-err"></textarea><br><span id="message-err" class="error" role="alert"></span></p>
+      <p><button type="submit">Send message</button></p>
+    </form>
+    <p id="contact-status" role="status" aria-live="polite"></p>
   </main>
   <footer class="site-footer">
     <p>&copy; Leasing Schweiz. A demonstration site; not a real offer.</p>
