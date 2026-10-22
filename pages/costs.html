@@ -18,7 +18,26 @@
   </header>
   <main id="main">
     <h1>Costs and example calculator</h1>
-    <!-- TODO build.fullstack: page content -->
+    <h2>What makes up a monthly rate</h2>
+    <ul>
+      <li><strong>Depreciation.</strong> The difference between the purchase price (after any down payment) and the Restwert. You pay for the part of the car's value you use up.</li>
+      <li><strong>Interest.</strong> The cost of the money the leasing company advances.</li>
+      <li><strong>Term.</strong> A longer term spreads the cost over more months.</li>
+      <li><strong>Kilometerlimit.</strong> More included kilometres usually mean a lower Restwert, so a higher rate.</li>
+      <li><strong>Extras.</strong> Insurance, servicing and any fees in the contract are separate costs to check.</li>
+    </ul>
+    <h2 id="calc-title">Example calculator</h2>
+    <p><strong>Example only.</strong> This is a simplified estimate with made-up inputs. It is not an offer, and real leasing companies calculate rates in their own ways and add fees.</p>
+    <form id="calc" aria-labelledby="calc-title">
+      <p><label for="price">Car price (CHF)</label><br><input id="price" name="price" type="number" inputmode="decimal" min="1000" step="100" value="40000" required></p>
+      <p><label for="down">Down payment (CHF)</label><br><input id="down" name="down" type="number" inputmode="decimal" min="0" step="100" value="4000" required></p>
+      <p><label for="term">Term (months)</label><br><input id="term" name="term" type="number" inputmode="numeric" min="6" max="72" step="1" value="48" required></p>
+      <p><label for="residual">Residual value (% of price)</label><br><input id="residual" name="residual" type="number" inputmode="decimal" min="0" max="90" step="1" value="45" required></p>
+      <p><label for="interest">Interest (% per year)</label><br><input id="interest" name="interest" type="number" inputmode="decimal" min="0" max="20" step="0.1" value="3.9" required></p>
+      <p><button type="submit">Calculate example rate</button></p>
+    </form>
+    <div id="calc-result" role="status" aria-live="polite"></div>
+    <p>Read more about the terms on <a href="how-leasing-works.html">How leasing works</a>.</p>
   </main>
   <footer class="site-footer">
     <p>&copy; Leasing Schweiz. A demonstration site; not a real offer.</p>
