@@ -1,0 +1,8 @@
+/* Design tokens: owned by the Designer */
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #d52b1e;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --space: 1rem;
+}

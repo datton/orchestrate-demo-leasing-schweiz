@@ -1,0 +1,5 @@
+/* Layout, header, nav, footer: owned by UI/UX */
+*, *::before, *::after { box-sizing: border-box; }
+.skip-link { position: absolute; left: -999px; }
+.skip-link:focus { left: 0; }
+main { max-width: 60rem; margin: 0 auto; padding: var(--space); }
