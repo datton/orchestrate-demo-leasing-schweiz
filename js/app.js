@@ -21,8 +21,8 @@
       e.preventDefault();
       var v = function (id) { return parseFloat(calc.elements[id].value); };
       var price = v('price'), down = v('down'), term = v('term'), res = v('residual'), rate = v('interest');
-      if ([price, down, term, res, rate].some(isNaN) || price <= 0 || term < 1 || down < 0 || down >= price || res < 0 || res > 100 || rate < 0) {
-        out.textContent = 'Please check the numbers: the down payment must be below the price, and no value can be negative.';
+      if ([price, down, term, res, rate].some(isNaN) || price <= 0 || term < 1 || down < 0 || down >= price || res < 0 || res > 100 || rate < 0 || down + price * res / 100 >= price) {
+        out.textContent = 'Please check the numbers: the down payment plus the residual value must be below the price, and no value can be negative.';
         return;
       }
       var m = monthlyRate(price, down, Math.round(term), res, rate);
